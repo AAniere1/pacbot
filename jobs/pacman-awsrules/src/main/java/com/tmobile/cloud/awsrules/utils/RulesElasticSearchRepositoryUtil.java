@@ -294,7 +294,10 @@ public class RulesElasticSearchRepositoryUtil {
             termDetails.put(entry.getKey(), entry.getValue());
             if (PacmanRuleConstants.RANGE.equals(entry.getKey())) {
                 term.put(PacmanRuleConstants.RANGE, entry.getValue());
-            } else {
+            }  else if ("regexp".equals(entry.getKey())) {
+				term.put(entry.getKey(), entry.getValue());
+			}
+            else {
                 term.put("term", termDetails);
             }
             finalFilter.add(term);

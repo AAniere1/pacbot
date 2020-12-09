@@ -361,4 +361,44 @@ public class PacmanRuleConstants {
 	public static final String DETAILS = "details";
 	public static final String AZURE_SUBSCRIPTION = "subscription";
     public static final String AZURE_SUBSCRIPTION_NAME = "subscriptionName";
+    public static final String FRONT_END_PORTS = "frontendPort";
+    public static final String BACK_END_PORTS = "backendPort";
+    public static final String LM_FRONTENDPORTS = "frontendPorts";
+    public static final String LM_BACKENDPORTS = "backendPorts";
+    public static final String INSTANCE_VIEW = "instanceView";
+    public static final String NIC_IP_CONFIG = "ipConfigurationList";
+    public static final String PUBLIC_IP_ADDRESS = "publicIPAddress";
+    public static final String NETWORK_SECURITY_GROUP = "networkSecurityGroups";
+    public static final String VM_NAME = "name";
+    public static final String VM_NSG_LIST = "nsgList";
+    public static final String VM_NIC_LIST = "networkInterfaceIds";
+    public static final String ATTACHED_TO = "attachedTo";
+    public static final int SUBNET_NOT_FOUND = -1;
+    public static final String ES_URL_NIC = "/azure_networkinterface/networkinterface/_search";
+    public static final String ES_NSG_URL = "esNsgRule";
+    public static final String PUBLIC_NIC = "publicNic";
+    public static final String IS_PUBLIC = "isPublic";
+    public static final String LOADBALANCER_ES_URL = "loadbalancerESUrl";
+    public static final String MISSING_PARAMS = "Missing value in rule params, cannot auto fix the issue";
+    public static final String PUBLIC_PORT = "publicPort";
+    public static final String PUBLIC_IPS = "publicIps";
+    public static final String PUBLIC_IPPORT_MAP = "publicIpPortMap";
+    public static final String INBOUND_SECURITY_RULES = "inBoundSecurityRules";
+    public static final String NSG = "nsg";
+    public static final String ALL = "ALL";
+    public static final String ATTACHED_TO_TYPE = "attachedToType";
+    public static final String TENANT = "tenant";
+    public static final String AUTH_TOKEN_GRANT_TYPE = "auth/oauth/token?grant_type=client_credentials";
+	public static final String BASE64_ENCRYPTED_CLIENT_CREDENTIALS = "base64EncryptedCredentials";
+	public static final String RULE_VIOLATION_REASON_API = "rule.violation.reason.api";
+	public static final String JSON_DATA = "data";
+	public static final String SUBSCRIPTION = "subscription";
+    public static final String ES_VIRTUALMACHINE_URL = "esVirtualMachineRule";
+    public static final String RESOURCE_GROUP_NAME = "resourceGroupName";
+    public static final String IP_ALL = "All"; 
+    public static final String ES_LOADBALANCER_URL = "esLoadBalancerUrl";
+    public static final String PUBLIC_IP_ADDRESS_IDS = "publicIPAddressIds";
+   
 }
+
+

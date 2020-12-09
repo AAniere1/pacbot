@@ -297,4 +297,34 @@ public interface PacmanSdkConstants {
 	String CLOUD_INSIGHT_USER = "CLOUD_INSIGHT_USER";
 	
 	String CLOUD_INSIGHT_PASSWORD = "CLOUD_INSIGHT_PASSWORD";
+	
+	String TENANT = "tenant";
+
+	String SUBSCRIPTION = "subscription";
+
+	String SUBSCRIPTION_NAME = "subscriptionName";
+
+	String RESOURCE_GROUP_NAME = "resourceGroupName";
+
+	String ASTERISK = "*";
+
+	String HYPHEN = "-";
+
+	String BACK_SLASH = "/";
+
+	String COMMA = ",";
+
+	String PROP_NAME_ALLOWED_CIDRS = "public.accessibility.allowed.cidrs";
+
+	String ES_URI = "ES_URI";
+
+	String HITS = "hits";
+
+	String ES_SOURCE = "_source";
+
+	String SEMICOLON = ";";
+
+	String DEFAULT_SEPARATOR = "; ";
+
+	String PROD_PACBOT_VAULT_API_TOKEN = "prod/pacbot/vault/pacbot-api-key";
 }
