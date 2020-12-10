@@ -3563,7 +3563,7 @@
     "severity": "high",
     "category": "security"
   },
-{
+  {
     "ruleId": "PacMan_VirtualMachineWithPublicAccess_version-1_VirtualMachineWithPublicAccess_virtualmachine",
     "ruleUUID": "azure_VirtualMachineWithPublicAccess_virtualmachine",
     "policyId": "PacMan_VirtualMachineWithPublicAccess_version-1",
@@ -3591,7 +3591,7 @@
     "policyId": "PacMan_LoadBalancerWithPublicAccess_version-1",
     "ruleName": "LoadBalancerWithPublicAccess",
     "targetType": "loadbalancer",
-    "assetGroup": "Azure All",
+    "assetGroup": "azure",
     "alexaKeyword": "LoadBalancerWithPublicAccess",
     "ruleParams": "{\"params\":[{\"encrypt\":\"false\",\"value\":\"check-for-virtualmachine-public-access\",\"key\":\"ruleKey\"},{\"encrypt\":false,\"value\":\"*\",\"key\":\"publicSourcePortRanges\"},{\"key\":\"esNsgRule\",\"value\":\"\/azure_nsg\/nsg\/_search\",\"isValueNew\":true,\"encrypt\":false},{\"key\":\"esVirtualMachineRule\",\"value\":\"\/azure\/virtualmachine\/_search\",\"isValueNew\":true,\"encrypt\":false},{\"key\":\"loadbalancerESUrl\",\"value\":\"\/azure_loadbalancer\/loadbalancer\/_search\",\"isValueNew\":true,\"encrypt\":false},{\"key\":\"fixKey\",\"value\":\"vm-public-access-fix\",\"isValueNew\":true,\"encrypt\":false},{\"key\":\"roleIdentifyingString\",\"value\":\"role\/pac_ro\",\"isValueNew\":true,\"encrypt\":false},{\"key\":\"public.accessibility.allowed.cidrs\",\"value\":\"configuration\",\"isValueNew\":true,\"encrypt\":false},{\"key\":\"base64EncryptedCredentials\",\"value\":\"\",\"isValueNew\":true,\"encrypt\":false},{\"key\":\"ignoreAnomaly\",\"value\":\"true\",\"isValueNew\":true,\"encrypt\":false},{\"encrypt\":false,\"value\":\"critical\",\"key\":\"severity\"},{\"encrypt\":false,\"value\":\"security\",\"key\":\"ruleCategory\"},{\"encrypt\":false,\"value\":\"\",\"key\":\"ruleOwner\"}],\"environmentVariables\":[],\"ruleId\":\"PacMan_VirtualMachineWithPublicAccess_version-1_VirtualMachineWithPublicAccess_virtualmachine\",\"autofix\":false,\"alexaKeyword\":\"\",\"ruleRestUrl\":\"\",\"targetType\":\"virtualmachine\",\"pac_ds\":\"azure\",\"policyId\":\"PacMan_VirtualMachineWithPublicAccess_version-1\",\"assetGroup\":\"azure\",\"ruleUUID\":\"azure_VirtualMachineWithPublicAccess_virtualmachine\",\"ruleType\":\"ManageRule\",\"ruleSource\":\"Custom\",\"oneClickFix\":false,\"isNotificationMandatory\":false,\"notificationRecipients\":\"\"}",
     "ruleFrequency": "0 0/2 * * ? *",
